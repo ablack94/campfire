@@ -1,0 +1,10 @@
+{
+  "name": "campfire-discord-poc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p frontend/tsconfig.json",
+    "dev": "npm run build && node backend/server.mjs"
+  }
+}
